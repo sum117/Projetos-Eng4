@@ -1,0 +1,73 @@
+
+* {
+    transition: visibility 1s ease-in-out;
+}
+.telaDeInicio {
+  color: var(--white);
+  padding: 1rem;
+  font-family: "Inter";
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s ease-in-out;
+}
+
+
+.telaDeInicio h1 {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.5rem;
+  padding: 1.5rem;
+}
+
+.telaDeInicio h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.btns {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.register {
+  width: 19rem;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--white);
+  font-weight: 100;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.register:hover {
+  background: var(--blue-300);
+}
+
+.login {
+  width: 19rem;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 50px;
+  background: var(--white);
+  color: var(--purple-700);
+  font-weight: 100;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+.login:hover {
+  background: var(--blue-300);
+}

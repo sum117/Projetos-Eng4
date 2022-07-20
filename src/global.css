@@ -1,0 +1,27 @@
+:root {
+  --white: #fff;
+  --blue-300: #6481bf;
+  --purple-500: #3c1b4b;
+  --purple-700: #23102c;
+  --purple-900: #1b0c21;
+}
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue-300);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: var(--purple-700);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  font-size: 1rem;
+}
