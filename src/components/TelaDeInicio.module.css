@@ -2,18 +2,23 @@
 * {
     transition: visibility 1s ease-in-out;
 }
-.telaDeInicio {
-  color: var(--white);
-  padding: 1rem;
-  font-family: "Inter";
+
+
+.background {
+  position: absolute;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-image 1s ease-in-out;
+  z-index: -1;
 }
-
-
+.telaDeInicio {
+  color: var(--white);
+  padding: 1rem;
+  font-family: "Inter";
+  z-index: 0;
+}
 .telaDeInicio h1 {
   display: flex;
   text-align: center;
