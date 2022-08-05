@@ -1,15 +1,25 @@
+.show {
+  display:block;
+  transition: 800ms;
+  opacity: 1;
+  position: absolute;
+}
+
+.show.active {
+  transform: translateY(100px) scale(0);
+  opacity: 0;
+}
 .popup {
-    border: 1px solid var(--blue-300);
-    border-radius: 8px;
-    background: var(--purple-500);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Inter";
-    padding: 1rem;
-    top: 12rem;
-    position: fixed;
+  border: 1px solid var(--blue-300);
+  border-radius: 8px;
+  background: var(--purple-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  padding: 1rem;
+  transition: 1s;
 }
 
 .popup h1 {

@@ -1,3 +1,15 @@
+.show {
+  display:block;
+  transition: 800ms;
+  opacity: 1;
+  margin-top: 4rem;
+}
+
+.show.active {
+  transform: translateY(100px) scale(0);
+  opacity: 0;
+}
+
 .popup {
   border: 1px solid var(--blue-300);
   border-radius: 8px;
@@ -8,8 +20,6 @@
   justify-content: center;
   font-family: "Inter";
   padding: 1rem;
-  top: 12rem;
-  position: fixed;
 }
 
 .popup h1 {

@@ -18,6 +18,7 @@
   filter: grayscale(50%) blur(3px) opacity(0.6);
   -webkit-filter: grayscale(50%) blur(3px) opacity(0.6);
 
+  z-index: -1;
 }
 
 .telaDeInicio h1 {
