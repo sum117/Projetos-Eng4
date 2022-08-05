@@ -31,12 +31,10 @@ export function TelaDeInicio() {
   );
 
   return (
-    <div
-      className={styles.telaDeInicio}
-      style={{
-        backgroundImage: `url(${images[currentImage]})`,
-      }}
-    >
+    <div className={styles.telaDeInicio}>
+      <div className={styles.background}>
+        <img src={images[currentImage]} />
+      </div>
       <h1>TUDO O QUE VOCÊ É, EM UM SIMPLES CARTÃO.</h1>
       <h2>
         Junte-se a duas pessoas (Luiz e João) de pessoas e compartilhe tudo o

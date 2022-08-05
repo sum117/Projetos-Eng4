@@ -14,9 +14,7 @@ export function Registro({ hidden = false }) {
       <input type="password" placeholder="Senha" />
       <input type="password" placeholder="Confirmar senha" />
       <div className={styles.handlerButtons}>
-        <button onClick type="cancel">
-          CANCELAR
-        </button>
+        <button type="cancel">CANCELAR</button>
         <button type="submit">REGISTRAR</button>
       </div>
     </form>

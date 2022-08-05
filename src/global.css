@@ -11,12 +11,15 @@
 }
 
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
+  display:grid;
   overflow: hidden;
   background: var(--purple-700);
   color: var(--white);

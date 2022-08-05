@@ -6,13 +6,19 @@
   color: var(--white);
   padding: 1rem;
   font-family: "Inter";
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: background-image 1s ease-in-out;
 }
 
+.background img {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  filter: grayscale(50%) blur(3px) opacity(0.6);
+  -webkit-filter: grayscale(50%) blur(3px) opacity(0.6);
+
+}
 
 .telaDeInicio h1 {
   display: flex;
